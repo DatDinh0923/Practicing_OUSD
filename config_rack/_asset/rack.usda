@@ -1,0 +1,52 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 0.01
+    upAxis = "Y"
+)
+
+def Xform "World"
+{
+    def Scope "Prototypes"
+    {
+        def Cube "Beam"
+        {
+            color3f[] primvars:displayColor = [(0.4, 0.45, 0.45)]
+            float3 xformOp:scale = (0.1, 2, 0.1)
+            uniform token[] xformOpOrder = ["xformOp:scale"]
+        }
+    }
+
+    def "Leg_001" (
+        prepend references = </World/Prototypes/Beam>
+    )
+    {
+        double3 xformOp:translate = (-5, 0, 5)
+        uniform token[] xformOpOrder = ["xformOp:scale", "xformOp:translate"]
+    }
+
+    def "Leg_002" (
+        prepend references = </World/Prototypes/Beam>
+    )
+    {
+        double3 xformOp:translate = (5, 0, 5)
+        uniform token[] xformOpOrder = ["xformOp:scale", "xformOp:translate"]
+    }
+
+    def "Leg_003" (
+        prepend references = </World/Prototypes/Beam>
+    )
+    {
+        double3 xformOp:translate = (-5, 0, 5)
+        uniform token[] xformOpOrder = ["xformOp:scale", "xformOp:translate"]
+    }
+
+    def "Leg_004" (
+        prepend references = </World/Prototypes/Beam>
+    )
+    {
+        double3 xformOp:translate = (5, 0, -5)
+        uniform token[] xformOpOrder = ["xformOp:scale", "xformOp:translate"]
+    }
+}
+

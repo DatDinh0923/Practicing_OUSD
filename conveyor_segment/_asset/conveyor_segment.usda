@@ -1,0 +1,37 @@
+#usda 1.0
+(
+    defaultPrim = "Conveyor_Segment"
+    metersPerUnit = 0.01
+    upAxis = "Y"
+)
+
+def Xform "Conveyor_Segment"
+{
+    def Scope "Geometry"
+    {
+        def "Roller_001" (
+            prepend references = @./roller.usda@
+        )
+        {
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def "Roller_002" (
+            prepend references = @./roller.usda@
+        )
+        {
+            double3 xformOp:translate = (50, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def "Roller_003" (
+            prepend references = @./roller.usda@
+        )
+        {
+            double3 xformOp:translate = (100, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+}
+
