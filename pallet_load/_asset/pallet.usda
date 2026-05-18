@@ -1,0 +1,299 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 0.01
+    upAxis = "Y"
+)
+
+def Xform "World" (
+    prepend specializes = </_Base_Prop>
+)
+{
+    def Scope "Prototypes"
+    {
+        token visibility = "invisible"
+
+        def Xform "PlankHandle"
+        {
+            def Cube "Plank"
+            {
+                color3f[] primvars:displayColor = [(0.6509804, 0.6156863, 0.43529412)]
+                double size = 1
+            }
+        }
+
+        def Xform "LegBlockHandle"
+        {
+            def Cube "LegBlock"
+            {
+                color3f[] primvars:displayColor = [(0.5686275, 0.45882353, 0.3019608)]
+                double size = 1
+            }
+        }
+    }
+
+    def Xform "TopPlank_01" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (120, 1.5, 11)
+        double3 xformOp:translate = (0, 0, -54.5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "TopPlank_02" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (120, 1.5, 13)
+        double3 xformOp:translate = (0, 0, -42.5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "TopPlank_03" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (120, 1.5, 9.5)
+        double3 xformOp:translate = (0, 0, -27.166666666666668)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "TopPlank_04" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (120, 1.5, 9.5)
+        double3 xformOp:translate = (0, 0, -13.583333333333336)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "TopPlank_05" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (120, 1.5, 9.5)
+        double3 xformOp:translate = (0, 0, -2.6645352591003757e-15)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "TopPlank_06" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (120, 1.5, 9.5)
+        double3 xformOp:translate = (0, 0, 13.58333333333333)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "TopPlank_07" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (120, 1.5, 9.5)
+        double3 xformOp:translate = (0, 0, 27.16666666666666)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "TopPlank_08" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (120, 1.5, 13)
+        double3 xformOp:translate = (0, 0, 42.49999999999999)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "TopPlank_09" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (120, 1.5, 11)
+        double3 xformOp:translate = (0, 0, 54.49999999999999)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "Stringer_01" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 2.5, 120)
+        double3 xformOp:translate = (-55.25, -2, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "Stringer_02" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 2.5, 120)
+        double3 xformOp:translate = (0, -2, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "Stringer_03" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 2.5, 120)
+        double3 xformOp:translate = (55.25, -2, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "Zwei_01" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (120, 2.5, 9.5)
+        double3 xformOp:translate = (0, -14, -55.25)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "Zwei_02" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (120, 2.5, 9.5)
+        double3 xformOp:translate = (0, -14, 55.25)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "Drei_01" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 2.5, 101)
+        double3 xformOp:translate = (-55.25, -14, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "Drei_02" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 2.5, 101)
+        double3 xformOp:translate = (0, -14, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "Drei_03" (
+        instanceable = true
+        prepend references = </World/Prototypes/PlankHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 2.5, 101)
+        double3 xformOp:translate = (55.25, -14, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "LegBlock_01" (
+        instanceable = true
+        prepend references = </World/Prototypes/LegBlockHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 9.5, 16)
+        double3 xformOp:translate = (-55.25, -8, -52)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "LegBlock_02" (
+        instanceable = true
+        prepend references = </World/Prototypes/LegBlockHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 9.5, 16)
+        double3 xformOp:translate = (0, -8, -52)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "LegBlock_03" (
+        instanceable = true
+        prepend references = </World/Prototypes/LegBlockHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 9.5, 16)
+        double3 xformOp:translate = (55.25, -8, -52)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "LegBlock_04" (
+        instanceable = true
+        prepend references = </World/Prototypes/LegBlockHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 9.5, 9.5)
+        double3 xformOp:translate = (-55.25, -8, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "LegBlock_05" (
+        instanceable = true
+        prepend references = </World/Prototypes/LegBlockHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 9.5, 9.5)
+        double3 xformOp:translate = (0, -8, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "LegBlock_06" (
+        instanceable = true
+        prepend references = </World/Prototypes/LegBlockHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 9.5, 9.5)
+        double3 xformOp:translate = (55.25, -8, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "LegBlock_07" (
+        instanceable = true
+        prepend references = </World/Prototypes/LegBlockHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 9.5, 16)
+        double3 xformOp:translate = (-55.25, -8, 52)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "LegBlock_08" (
+        instanceable = true
+        prepend references = </World/Prototypes/LegBlockHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 9.5, 16)
+        double3 xformOp:translate = (0, -8, 52)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "LegBlock_09" (
+        instanceable = true
+        prepend references = </World/Prototypes/LegBlockHandle>
+    )
+    {
+        float3 xformOp:scale = (9.5, 9.5, 16)
+        double3 xformOp:translate = (55.25, -8, 52)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+}
+
+class "_Base_Prop"
+{
+}
+
