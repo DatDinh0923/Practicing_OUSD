@@ -13,5 +13,5 @@ stage.SetDefaultPrim(world_xform.GetPrim())
 cube_box = UsdGeom.Cube.Define(stage, "/World/Box")
 cube_box.GetDisplayColorAttr().Set([(0.76, 0.6, 0.42)])
 cube_box.CreateSizeAttr().Set(1.0)
-# cube_box.AddScaleOp().Set(Gf.Vec3f(120, 2.5, 9.5)) # zyx, blue green red, tesing plank
+cube_box.AddScaleOp().Set(Gf.Vec3f(120, 2.5, 9.5)) # zyx, blue green red, tesing plank
 stage.Save()
