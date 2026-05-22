@@ -19,8 +19,645 @@ def Xform "World"
             prepend references = @./box.usda@
         )
         {
-            float3 xformOp:scale = (50, 50, 50)
-            double3 xformOp:translate = (0, 25.75, 0)
+        }
+
+        def "Box_001" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 10.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_002" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 10.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_003" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 10.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_004" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 10.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_005" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 10.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_006" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 10.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_007" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 10.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_008" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 10.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_009" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 10.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_010" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 10.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_011" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 10.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_012" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 10.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_013" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 10.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_014" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 10.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_015" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 10.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_016" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 10.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_017" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 30.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_018" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 30.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_019" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 30.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_020" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 30.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_021" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 30.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_022" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 30.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_023" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 30.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_024" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 30.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_025" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 30.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_026" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 30.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_027" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 30.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_028" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 30.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_029" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 30.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_030" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 30.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_031" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 30.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_032" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 30.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_033" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 50.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_034" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 50.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_035" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 50.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_036" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 50.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_037" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 50.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_038" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 50.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_039" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 50.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_040" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 50.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_041" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 50.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_042" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 50.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_043" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 50.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_044" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 50.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_045" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 50.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_046" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 50.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_047" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 50.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_048" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 50.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_049" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 70.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_050" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 70.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_051" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 70.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_052" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-30, 70.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_053" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 70.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_054" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 70.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_055" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 70.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_056" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (-10, 70.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_057" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 70.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_058" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 70.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_059" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 70.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_060" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (10, 70.75, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_061" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 70.75, -30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_062" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 70.75, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_063" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 70.75, 10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def "Box_064" (
+            instanceable = true
+            prepend references = @./box.usda@
+        )
+        {
+            float3 xformOp:scale = (20, 20, 20)
+            double3 xformOp:translate = (30, 70.75, 30)
             uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
         }
     }
